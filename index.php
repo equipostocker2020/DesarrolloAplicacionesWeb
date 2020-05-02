@@ -34,7 +34,7 @@
                             <div class="form-group">
                                 <textarea name="mensaje" class="form-control" rows="5" placeholder="Cuerpo del mensaje..."></textarea>
                             </div>
-                            <button type="submit" onclick="enviar()" class="btn btn-secondary btn-lg btn-block">Enviar Correo</button>
+                            <button type="submit" onclick="enviar()" name="enviar" class="btn btn-secondary btn-lg btn-block">Enviar Correo</button>
                         </form>
                     </div>
                 </div>
