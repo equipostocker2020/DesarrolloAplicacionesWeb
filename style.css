@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 8%, rgba(0, 212, 255, 1) 100%);
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+input {
+    margin: auto;
+    padding: 8px;
+    width: 450px;
+    border: none;
+}
+
+textarea {
+    margin: auto;
+    padding: 8px;
+    width: 450px;
+    min-height: 100px;
+    max-height: 200px;
+    border: none;
+}
+
+.texto-decorado {
+    color: white;
+}
+
+.gold {
+    color: gray;
+}
+
+h2 {
+    color: olive;
+}
+
+hr {
+    background-color: grey;
+}
+
+.shadow {
+    text-shadow: 1px 1px #fff;
+    border: white 1px solid;
+}
