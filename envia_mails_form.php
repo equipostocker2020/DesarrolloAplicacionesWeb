@@ -11,7 +11,7 @@ if (isset($_POST['enviar'])) {
         $cuerpo = $nombre . ' ' . $apellido . "\r\n";
         $cuerpo .= $email . "\r\n" ;
         $cuerpo .= $_POST['mensaje'];
-        $destino = "gonzalofigueras@gmail.com";
+        $destino = "mcferrocroce@gmail.com";
         $header = "From: " . $email . "\r\n";
         $header.= "Reply-To: " . $email . "\r\n";
         $header.= "X-Mailer: PHP/". phpversion();
